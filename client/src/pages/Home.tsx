@@ -188,7 +188,8 @@ export default function Home() {
           <div className="gate-topline"><span>REIN SCHLIEFFEN / 01</span><span>PORTFOLIO ENTRY · 2026</span></div>
           <div className="gate-center">
             <div className="portrait-frame" aria-label="Portrait of Rein Schlieffen"><img className="portrait-image" src="/assets/rein-schlieffen-portrait.png" alt="Portrait of Rein Schlieffen" /><span className="portrait-index">IDENTITY / 001</span></div>
-            <div className="gate-copy"><p className="eyebrow">REIN SCHLIEFFEN · 22 · BUILDER IN PROGRESS</p><h1>WELCOME<br /><em>INSIDE.</em></h1><p className="gate-intro">I’m Rein — a student and local freelancer building my way into technology through real work, stubborn curiosity, and one imperfect prototype at a time.</p><button className="enter-button" onClick={enterPortfolio} autoFocus onMouseEnter={() => setCursorLabel("ENTER")} onMouseLeave={() => setCursorLabel("")}>ENTER THE PORTFOLIO <ArrowUpRight size={16} /></button></div>
+            <div className="gate-copy"><p className="eyebrow">REIN SCHLIEFFEN · 22 · BUILDER IN PROGRESS</p><h1>WELCOME<br /><em>INSIDE.</em></h1><p className="gate-intro">I’m Rein — a student and local freelancer building my way into technology through real work, stubborn curiosity, and one imperfect prototype at a time.</p><button className="enter-button" onClick={enterPortfolio} onMouseEnter={() => setCursorLabel("ENTER")} onMouseLeave={() => setCursorLabel("")}> ENTER THE PORTFOLIO <ArrowUpRight size={16} /></button>
+            </div>
           </div>
           <div className="gate-bottomline"><span>SOFTWARE · AI · DATA · SECURITY</span><span>THE DOOR OPENS ON YOUR CURIOSITY</span></div>
         </div>
