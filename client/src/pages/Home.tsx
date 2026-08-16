@@ -27,7 +27,7 @@ const projects: Project[] = [
     tech: "PYTHON · AI · RAG · FASTAPI",
     status: "PROTOTYPE",
     year: "2026",
-    image: "/manus-storage/studylens-system_9fb276a3.jpg",
+    image: "/assets/studylens-system.jpg",
     fields: ["THE PROBLEM", "THE IDEA", "WHAT BROKE", "WHAT I LEARNED"],
     story: [
       "Dense lecture material is hard to revisit when the first pass did not stick.",
@@ -43,7 +43,7 @@ const projects: Project[] = [
     tech: "REACT · PYTHON · POSTGRESQL",
     status: "IN DEVELOPMENT",
     year: "2026",
-    image: "/manus-storage/hero-editorial_460e79b2.jpg",
+    image: "/assets/hero-editorial.jpg",
     fields: ["THE PROBLEM", "THE IDEA", "THE PROCESS", "WHAT'S NEXT"],
     story: [
       "University life is a system of small deadlines, locations, and decisions that rarely live in one place.",
@@ -59,7 +59,7 @@ const projects: Project[] = [
     tech: "PYTHON · PANDAS · DATA VISUALIZATION",
     status: "RESEARCH PROJECT",
     year: "2026",
-    image: "/manus-storage/data-research_816a20dd.jpg",
+    image: "/assets/data-research.jpg",
     fields: ["THE QUESTION", "THE DATA", "WHAT BROKE", "WHAT I LEARNED"],
     story: [
       "A single average can hide the very different realities behind student budgets.",
@@ -75,7 +75,7 @@ const projects: Project[] = [
     tech: "PYTHON · LINUX · NETWORKING",
     status: "LEARNING LAB",
     year: "2026",
-    image: "/manus-storage/security-lab_03fd6326.jpg",
+    image: "/assets/security-lab.jpg",
     fields: ["THE QUESTION", "THE SETUP", "WHAT BROKE", "WHAT'S NEXT"],
     story: [
       "Security is easier to understand when the system is small enough to observe end to end.",
@@ -187,7 +187,7 @@ export default function Home() {
         <div className="gate-content">
           <div className="gate-topline"><span>REIN SCHLIEFFEN / 01</span><span>PORTFOLIO ENTRY · 2026</span></div>
           <div className="gate-center">
-            <div className="portrait-frame" aria-label="Portrait of Rein Schlieffen"><img className="portrait-image" src="/manus-storage/rein-schlieffen-portrait_326d1daf.png" alt="Portrait of Rein Schlieffen" /><span className="portrait-index">IDENTITY / 001</span></div>
+            <div className="portrait-frame" aria-label="Portrait of Rein Schlieffen"><img className="portrait-image" src="/assets/rein-schlieffen-portrait.png" alt="Portrait of Rein Schlieffen" /><span className="portrait-index">IDENTITY / 001</span></div>
             <div className="gate-copy"><p className="eyebrow">REIN SCHLIEFFEN · 22 · BUILDER IN PROGRESS</p><h1>WELCOME<br /><em>INSIDE.</em></h1><p className="gate-intro">I’m Rein — a student and local freelancer building my way into technology through real work, stubborn curiosity, and one imperfect prototype at a time.</p><button className="enter-button" onClick={enterPortfolio} autoFocus onMouseEnter={() => setCursorLabel("ENTER")} onMouseLeave={() => setCursorLabel("")}>ENTER THE PORTFOLIO <ArrowUpRight size={16} /></button></div>
           </div>
           <div className="gate-bottomline"><span>SOFTWARE · AI · DATA · SECURITY</span><span>THE DOOR OPENS ON YOUR CURIOSITY</span></div>
@@ -197,7 +197,7 @@ export default function Home() {
       <div className={`custom-cursor ${cursorLabel ? "is-active" : ""} ${cursorVisible ? "is-visible" : ""}`} aria-hidden="true"><span>{cursorLabel}</span></div>
       <header className="topbar">
         <button className="brand-lockup" onClick={() => scrollToId("index")} aria-label="Back to top">
-          <img src="/manus-storage/curiosity-mark_d56d9ac0.png" alt="" />
+          <img src="/assets/curiositymark.png" alt="" />
           <span>REIN SCHLIEFFEN / 01</span>
         </button>
         <div className="topbar-meta">IT ENTHUSIAST · BUILDER · 2026</div>
