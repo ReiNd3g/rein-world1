@@ -330,3 +330,13 @@ footer span:first-child { color:var(--ink); }
 .portrait-index { position:absolute; z-index:2; }
 @media(max-width:640px){.portrait-image{object-position:50% 18%;}}
 @media(prefers-reduced-motion:reduce){.portrait-image{transition:none}}
+
+/* Entry button: no visible outline on initial load, but retain a clear keyboard focus state. */
+.enter-button:focus {
+  outline: none;
+}
+
+.enter-button:focus-visible {
+  outline: 1px solid var(--paper);
+  outline-offset: 5px;
+}
